@@ -3,3 +3,20 @@
 
 # python cache
 __pycache__/
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
